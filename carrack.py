@@ -18,12 +18,14 @@ import datetime
 import requests
 # Project Modules:
 import data.holdings as holdings
+import data.calculations as calculations
 
 # Functions and Methods:
 
 # Main method:
 def main():
-    holdings_json = holdings.get_holdings()
+    holding_dict = holdings.get_holdings()
+    calculations.calculate_value(holding_dict)
 
 if __name__ == "__main__":
     main()
