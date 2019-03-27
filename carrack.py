@@ -8,6 +8,12 @@
 # Change 1:
 #   Modified on: 23-Mar-2019
 #   Change Specification: [ARCH-001]
+# Change 2:
+#   Modified on: 25-Mar-2019
+#   Change Specification: [ENG-003]
+# Change 3:
+#   Modified on: 25-Mar-2019
+#   Change Specification: [ENG-002]
 #
 # //TODO: Check naming :=> Dataframe Checked; variables pending
 # //TODO: Verify if combined data is needed
@@ -39,7 +45,8 @@ def main():
     if args.mode == "v":
         calculations.get_value(holding_dict)
     elif args.mode == "ct":
-        calculations.calculate_value(holding_dict)
+        asset_value_dict, total_value = calculations.calculate_value(holding_dict)
+        holding_percent_dict = calculations.calculate_percent(asset_value_dict, total_value)
 
 if __name__ == "__main__":
     main()
