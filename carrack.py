@@ -4,17 +4,6 @@
 # Description : Main program                                       ##
 #####################################################################
 #
-# History:
-# Change 1:
-#   Modified on: 23-Mar-2019
-#   Change Specification: [ARCH-001]
-# Change 2:
-#   Modified on: 25-Mar-2019
-#   Change Specification: [ENG-003]
-# Change 3:
-#   Modified on: 25-Mar-2019
-#   Change Specification: [ENG-002]
-#
 # //TODO: Check naming :=> Dataframe Checked; variables pending
 # //TODO: Verify if combined data is needed
 
@@ -50,14 +39,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
-#####################################################
-##    Rough:                                       ##
-#####################################################
-## https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=MSFT&apikey=demo
-## naming convention:module_name, package_name, ClassName, method_name, ExceptionName, function_name, GLOBAL_CONSTANT_NAME, global_var_name, instance_var_name, function_parameter_name, local_var_name
-## Quandl url: not used since last date available is 2018-03-27
-##   url = "https://www.quandl.com/api/v3/datasets/WIKI/{}/data.json?api_key=reuP1L2Rue8aB3kBL9P6".format("MSFT")
-##   url = "https://www.quandl.com/api/v3/datasets/WIKI/MSFT.json?column_index=4&start_date=2019-03-24&end_date=2019-03-25&api_key=reuP1L2Rue8aB3kBL9P6"

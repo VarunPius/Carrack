@@ -1,0 +1,10 @@
+
+#####################################################
+##    Rough:                                       ##
+#####################################################
+
+## https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=MSFT&apikey=demo
+## naming convention:module_name, package_name, ClassName, method_name, ExceptionName, function_name, GLOBAL_CONSTANT_NAME, global_var_name, instance_var_name, function_parameter_name, local_var_name
+## Quandl url: not used since last date available is 2018-03-27
+##   url = "https://www.quandl.com/api/v3/datasets/WIKI/{}/data.json?api_key=reuP1L2Rue8aB3kBL9P6".format("MSFT")
+##   url = "https://www.quandl.com/api/v3/datasets/WIKI/MSFT.json?column_index=4&start_date=2019-03-24&end_date=2019-03-25&api_key=reuP1L2Rue8aB3kBL9P6"
