@@ -3,11 +3,6 @@
 # File        : calculation.py                                     ##
 # Description : Module to get holdings data                        ##
 #####################################################################
-#
-# History:
-# Change 1:
-#   Last Modified on: 27-Mar-2019
-#   Change Specification: [ENG-002]
 
 # Standard Modules:
 import json

@@ -3,14 +3,13 @@
 # File        : holdings.py                                        ##
 # Description : Module to get holdings data                        ##
 #####################################################################
-#
 
 # Standard Modules:
 import json
 
 # Functions and Methods:
 def get_holdings():
-    with open('data/assets.json') as data_file:
+    with open('data/assets_main.json') as data_file:
         asset_data = json.load(data_file)
     
     holding_dict = {}
