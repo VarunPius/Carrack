@@ -52,3 +52,12 @@ deactivate
 
 
 # Spark
+To run shell
+```
+spark-shell
+```
+
+To quit:
+```
+:quit
+```
